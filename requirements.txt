@@ -1,0 +1,16 @@
+streamlit
+pdfplumber
+pdf2image
+pillow
+chromadb
+openai
+pydantic
+requests
+pandas
+openpyxl
+ragas
+langchain-text-splitters
+python-dotenv
+fastapi
+uvicorn
+httpx

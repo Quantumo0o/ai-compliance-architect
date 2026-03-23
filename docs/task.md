@@ -1,0 +1,80 @@
+# AI Compliance Matrix Architect - Task List
+
+- [x] **Phase 1: Foundation (Config & Resilience)**
+- [x] **Phase 2: Persistence Layer (Database)**
+- [x] **Phase 3: Ingestion Engine (The Eyes)**
+- [x] **Phase 4: Knowledge Base (The Memory)**
+- [x] **Phase 5: The Brain (Extraction & Adjudication)**
+- [x] **Phase 6: The UI (The Face)**
+- [x] **Phase 7: Verification & Evaluation**
+- [x] **Phase 8: Interactive Q&A**
+- [x] **Phase 9: Product Improvements**
+- [x] **Phase 10: Document Management**
+- [x] **Phase 11: Granular Evidence Referencing**
+- [x] **Phase 12: Final System Verification**
+- [x] **Phase 13: Advanced Analytics & Optimization**
+- [x] **Phase 14: OCR Strategy Refinement**
+- [x] **Phase 15: Async Double-Blind Architecture**
+- [x] **Phase 16: Stability & Security (Local Edition)**
+- [x] **Phase 17: Post-Launch Bugfix Sprint (Encoding & Deprecations)**
+- [x] **Phase 18: Sample Data Generation (AC Maintenance Tender)**
+    - [x] Draft `Company_Profile.md` (High Detail) [x]
+    - [x] Draft `Service_SLA_Capabilities.md` (High Detail) [x]
+    - [x] Draft `Experience_Case_Studies.md` (High Detail) [x]
+- [x] **Phase 19: API Resilience (504 Gateway Timeout Fix)**
+    - [x] Increase extraction timeout to 180s. [x]
+    - [x] Increase adjudication timeout to 180s. [x]
+    - [x] Set retry count to 5 for high-load resilience. [x]
+- [x] **Phase 20: Real-Time Model Observability**
+    - [x] Add explicit `Model: [Name]` traces to `extraction.py` [x]
+    - [x] Add explicit traces to all Adjudication tiers in `judge.py` [x]
+    - [x] Add explicit traces to Reranker in `vector_store.py` [x]
+    - [x] Add explicit traces to OCR in `ingestion.py` [x]
+- [x] **Phase 21: Multi-Tenant Knowledge Portfolios**
+    - [x] Restructure `data/knowledge_base` into `global/` and `portfolios/` 
+    - [x] Inject `portfolio` metadata tags into `VectorStoreManager`
+    - [x] Implement `$or` query filtering in `search()`
+    - [x] Add UI Portfolio Selector dropdown in `app.py` 
+- [x] **Phase 22: Project-Aware Chat RAG (Awareness of Uploaded Tender)**
+    - [x] Index RFP pages into ChromaDB during Ingestion 
+    - [x] Update `search()` to optionally include `doc_id` in context
+    - [x] Link `selected_doc_id` to Chat context in `app.py`
+    - [x] Synchronize ARCHITECTURE_BLUEPRINT.md with Phase 21/22 logic
+- [x] **Phase 23: Deep-Reasoning RAG Chat (High-Fidelity Model)**
+    - [x] Switch Chat LLM to `gpt-oss-120b` reasoning model
+    - [x] Implement Strict RAG System Prompt (Source Category Enforcement)
+    - [x] Increase `fetch_k` and `top_k` for reasoning depth
+- [x] **Phase 24: JSON Extraction Resilience (Solving EOF Errors)**
+    - [x] Increase `max_tokens` limit on extraction API call
+    - [x] Implement Regex `<think>` block stripping
+    - [x] Build graceful JSON-string truncation recovery logic
+- [x] **Phase 25: Knowledge Base Deepening (High Compliance Scores)**
+    - [x] Add explicit Financial Metrics (>50Cr) to Company Profile
+    - [x] Add rigorous SLA & Response Timelines to Service Portfolio
+    - [x] List explicit Tools, ISO Certs, and Penalties avoidance records
+- [x] **Phase 26: Chat Reliability (Tender Blindness Fix)**
+    - [x] Implement Upsert logic for ChromaDB (ID Colission fix)
+    - [x] Implement Domain-Segregated Reranking (50/50 Context Split)
+    - [x] Interleaving Fallback for Reranker failures
+- [x] **Phase 27: Career & Interview Handover**
+    - [x] Create Technical Interview Preparation Guide
+    - [x] Document Architectural "Winning Answers" for recruiters
+    - [x] Final Sanity Check of backend/frontend services
+- [x] **Phase 28: Analysis Determinism & Extraction Stability**
+    - [x] Increase Page Overlap Buffer (1000+ chars)
+    - [x] Pin `top_p` decoding parameter
+    - [x] Implement text normalization for req_hash deduplication
+- [x] **Phase 29: Model Transparency & Prompting**
+    - [x] Document Extraction system prompt
+    - [x] Document Adjudication (Judge) system prompt
+    - [x] Document Double-Blind (Critic) logic & triggers
+    - [x] Document RAG Chat reasoning prompt
+- [x] **Phase 30: Documentation Audit & Workspace Sync**
+    - [x] Overhaul `architecture_blueprint.md` for production specs
+    - [x] Sync all 15 artifacts to `/docs` project folder
+    - [x] Final Sanity Check of Documentation Index links
+- [x] **Phase 31: GitHub Repository Preparation**
+    - [x] Create comprehensive `.gitignore`
+    - [x] Write professional `README.md` with install guide
+    - [x] Add MIT `LICENSE`
+    - [x] Clean up workspace (del diagnostic scripts)
